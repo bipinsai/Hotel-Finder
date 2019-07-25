@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="TheHotelFinder">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/TheHotelFinder.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

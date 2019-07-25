@@ -1,0 +1,355 @@
+﻿All hotels
+db.hotels.insert([
+                 {"name":"Mercure Hyderabad KCP", "city":"Hyderabad", "state":"Telangana", "noRooms":[55,35], "costArr":[4999,7999], 
+                "ratingArr":[], "details":["all-day restaurant","rooftop eatery and a cafe","a gym","a business centre","Free wifi",
+                "fitness centre", "spa, bar", "Air conditioning"], "waitingList":[]},
+                
+                {"name":"Ellala Gachibowli Hyderabad", "city":"Hyderabad", "state":"Telangana", "noRooms":[43,28], "costArr":[4299,5399], 
+                "ratingArr":[], "details":["Flat-screen TVs/DVD players","tea/coffee making equipment","tea/coffee making equipment",
+                "Butler service and 24/7 room services","Free wifi","Restaurant", "international, Italian and kebab restaurants", "hot tub"], "waitingList":[]},
+
+                {"name":"The Park", "city":"Hyderabad", "state":"Telangana", "noRooms":[51,34], "costArr":[5999,7299], "ratingArr":[3,4],
+                 "details":["Featuring city, lake or pool views","complimentary Wi-Fi and fresh fruit","flat-screen TVs, desks, sitting areas","tea and coffee making facilities","24/7 alfresco eatery, poolside snacks", "fine dining and a night club","An outdoor infinity pool ", 
+                 "a spa and gym", "Restaurant"], "waitingList":[]},
+
+                 {"name":"IBIS Hyderabad Hitec City", "city":"Hyderabad", "state":"Telangana", "noRooms":[41,24], "costArr":[6599,8399], 
+                "ratingArr":[], "details":["wood furnishings ","complimentary Wi-Fi","flat-screen TVs and minibars",
+                "tea and coffee making facilities","Breakfast is extra","laundry service, business centre, bar onsite"], "waitingList":[]},
+
+                {"name":"Royalton Hotel", "city":"Hyderabad", "state":"Telangana", "noRooms":[41,24], "costArr":[3599,6399], 
+                "ratingArr":[], "details":["free Wi-Fi ","flat-screen TVs and fridges","tea and coffee making facilities",
+                "sitting areas","restaurant, a bar, a spa","Fitness centre"], "waitingList":[]},
+
+                {"name":"T2 BEACON MUMBAI", "city":"Mumbai", "state":"Maharashtra", "noRooms":[44,27], "costArr":[6199,8299], 
+                "ratingArr":[], "details":["free Wi-Fi and flat-screen TVs","minibars", "tea and coffeemaking equipment","Room service is available",
+                "Breakfast and limited parking are complimentary","a relaxed restaurant and a gym"], "waitingList":[]},
+                
+                {"name":"TRANSIT HOTEL", "city":"Mumbai", "state":"Maharashtra", "noRooms":[48,35], "costArr":[5199,9299], 
+                "ratingArr":[], "details":["free Wi-Fi and flat-screen TVs","minibars" ,"tea and coffeemaking equipment","Room service is available",
+                "Breakfast and limited parking are complimentary","meeting and event facilities"], "waitingList":[]},
+                
+                {"name":"DRAGON FLY", "city":"Mumbai", "state":"Maharashtra", "noRooms":[44,31], "costArr":[4069,8079], 
+                "ratingArr":[], "details":["rich wooden furnishings","flat-screen TVs", "free Wi-Fi, mini fridges","tea and coffee making facilities",
+                "Room service is available 24/7","international cuisine", "a garden terrace", "room service, laundry service", "business centre"], "waitingList":[]},
+                
+                {"name":"KOHINOOR CONTINENTAL", "city":"Mumbai", "state":"Maharashtra", "noRooms":[57,30], "costArr":[4969,8569], 
+                "ratingArr":[], "details":["refined, modern rooms offer cool colour scheme", "free Wi-Fi and flat-screen TVs","minibars","Room service is available",
+                "separate bedrooms and lavish bathrooms","business centre and conference facilities", "Swimming pool — Outdoor"], "waitingList":[]},
+                
+                {"name":"KEYS SELECT HOTEL NESTOR", "city":"Mumbai", "state":"Maharashtra", "noRooms":[41,24], "costArr":[3199,6199], 
+                "ratingArr":[], "details":["Low-key rooms and suites, with contemporary decor","free Wi-Fi", "flat-screen TVs", "tea and coffee making facilities","Room service is available",
+                "Parking is complimentary","an outdoor pool", "a kid’s play area", "banquet facilities and laundry service."], "waitingList":[]},
+
+                {"name":"GINGER DELHI RYN", "city":"New Delhi", "state":"Delhi", "noRooms":[51,32], "costArr":[5899,7299], 
+                "ratingArr":[], "details":["rooms with streamlined decor ","with flat-screen TVs", "free Wi-Fi","tea and coffee making equipment","Room service is available",
+                "Parking is complimentary","a casual restaurant and a fitness room"], "waitingList":[]},
+                
+                {"name":"ORANA HOTELS AND RESORTS", "city":"New Delhi", "state":"Delhi", "noRooms":[47,35], "costArr":[5199,7299], 
+                "ratingArr":[], "details":["rooms with streamlined decor ","with flat-screen TVs, free Wi-Fi","desks and rainfall showers","separate living rooms", "free airport transfers",
+                "Room service is available 24/7.","Welcome drinks are complimentary","an outdoor pool and a fitness room", "free parking"], "waitingList":[]},
+                
+                {"name":"HOTEL LE ROI DELHI", "city":"New Delhi", "state":"Delhi", "noRooms":[55,35], "costArr":[5999,7999], 
+                "ratingArr":[], "details":["soundproof windows","offer free Wi-Fi", " flat-screen TVs","desks and laptop safes", "tea and coffee making equipment","Room service is available",
+                "Parking is free","24/7 cafe", "a rooftop terrace where breakfast is served"], "waitingList":[]},
+                
+                {"name":"CASPIA HOTEL", "city":"New Delhi", "state":"Delhi", "noRooms":[45,37], "costArr":[5666,7669], 
+                "ratingArr":[], "details":["with flat-screen TVs", "free Wi-Fi","desks, and tea and coffee making equipment","Room service is available",
+                "a multi-cuisine restaurant", "a cafe/bar and a fitness room","Airport shuttle", "free parking"], "waitingList":[]},
+
+                {"name":"HOTEL SOUTHERN", "city":"New Delhi", "state":"Delhi", "noRooms":[53,41], "costArr":[5789,7888], 
+                "ratingArr":[], "details":["free Wi-Fi","bottled water and welcome fruit baskets","satellite TV and desks", "minifridges", "tea and coffee making equipment","Room service is available",
+                "free a breakfast buffet", "parking and airport/area shuttles","a generator is available", "free parking"], "waitingList":[]},
+
+                {"name":"HOTEL HINDUSTHAN INTERNATIONAL", "city":"Kolkata", "state":"West Bengal", "noRooms":[50,36], "costArr":[4379,6888], 
+                "ratingArr":[], "details":["free Wi-Fi","flat-screen TVs, along with minibars", "minifridges", "tea and coffee making equipment","Room service is available",
+                "a 24-hour cafe", "2 hip lounge/bars", "an upscale restaurant","an airport shuttle", "24/7 butler service", "an outdoor pool", "a fitness room and a spa"], "waitingList":[]},
+                
+                {"name":"THE PEERLESS INN KOLKATA", "city":"Kolkata", "state":"West Bengal", "noRooms":[40,36], "costArr":[5279,7218], 
+                "ratingArr":[], "details":["free Wi-Fi","flat-screen TVs", "along with minibars", "tea and coffee making equipment","fridges and desks", "plus fruit baskets and chocolates",
+                "Evening turndown service is on offer","multi-cuisine restaurant with a coffee shop", "A fitness room "], "waitingList":[]},
+
+                {"name":"Aauris", "city":"Kolkata", "state":"West Bengal", "noRooms":[44,36], "costArr":[4279,6318], 
+                "ratingArr":[], "details":["free Wi-Fi", "flat-screen TVs", "along with minibars and minifridges", "tea and coffee making equipment","Room service is available",
+                "A hip restaurant serves international dishes","an open-air cafe","a chic rooftop bar with LED-lit furniture", "a gym", "an outdoor pool", "a spa with steam rooms"], "waitingList":[]},
+
+                {"name":"PARK PRIME KOLKATA", "city":"Kolkata", "state":"West Bengal", "noRooms":[40,36], "costArr":[5399,7318], 
+                "ratingArr":[], "details":["breakfast and on-site parking","flat-screen TVs", "along with minibars and free Wi-Fi", "minifridges", "tea and coffee making equipment","Room service is available",
+                "a rooftop pool, a gym & a spa","Pets are welcome", "an upscale restaurant", "a bistro and a relaxed bar"], "waitingList":[]},
+                
+                {"name":"THE LINDSAY", "city":"Kolkata", "state":"West Bengal", "noRooms":[51,36], "costArr":[5289,7888], 
+                "ratingArr":[], "details":["free Wi-Fi","flat-screen TVs, along with minibars", "minifridges and tea and coffee making equipment","Room service is available",
+                "separate sitting/dining areas","a rooftop restaurant serving international cuisine", "features city views", "a gym, a hair salon and a yogurt shop"], "waitingList":[]},
+
+                {"name":"GOLDFINCH HOTELS", "city":"Bangalore", "state":"Karnataka", "noRooms":[48,39], "costArr":[5002,7654], 
+                "ratingArr":[], "details":["a free breakfast buffet", "a kebab restaurant, a warm seafood restaurant","free Wi-Fi",
+                 "flat-screen TVs", "minibars and coffee making facilities","a spa area with massage treatments", 
+                 "plus a salon","a restaurant for Indian, Chinese and Mediterranean cuisine","Banquet halls are available",
+                 "Air conditioning"], "waitingList":[]},
+                 
+                 {"name":"CHANCERY PAVILION", "city":"Bangalore", "state":"Karnataka", "noRooms":[42,28], "costArr":[5882,7244], 
+                "ratingArr":[], "details":["free Wi-Fi", "flat-screen TVs", "plus minibars", "tea and coffee making facilities.",
+                "separate living/dining areas", "some include whirlpool tubs",
+                "Room service is available 24/7",
+                "Parking is free","24/7 gym and an outdoor pool", "plus a sauna and a hot tub",
+                 "business centre and conference space available"], "waitingList":[]},
+                 
+                 {"name":"ADARSH HAMILTON", "city":"Bangalore", "state":"Karnataka", "noRooms":[40,27], "costArr":[5999,7299], 
+                "ratingArr":[], "details":["free Wi-Fi and flat-screen TVs", "plus minibars", "tea and coffee making facilities.",
+                "separate living/dining areas", "some include whirlpool tubs",
+                "Room service is available 24/7",
+                "Parking is free","a polished international restaurant", "an elegant bar and a stylish lobby lounge", "a gym",
+                 "business centre and function rooms available"], "waitingList":[]},
+                 
+                 {"name":"SOUTHERN STAR", "city":"Bangalore", "state":"Karnataka", "noRooms":[42,28], "costArr":[5882,7244], 
+                "ratingArr":[], "details":["Wi-Fi access", "flat-screen TVs", "tea and coffee making facilities","minibars",
+                "Room service is available 24/7","3 restaurants, including Mediterranean fare", "as well as an open-air option",
+                "Breakfast and parking are free","24/7 gym and an outdoor pool", "plus a sauna and a hot tub",
+                 "business centre and conference space available"], "waitingList":[]},
+                 
+                 {"name":"FORTUNE SELECT TRINITY", "city":"Bangalore", "state":"Karnataka", "noRooms":[52,30], "costArr":[5099,7099], 
+                "ratingArr":[], "details":["free Wi-Fi", "minibars and TVs", "as well as tea and coffeemaking equipment","separate living/dining areas", "some include whirlpool tubs",
+                "Room service is available 24/7", "Free perks include parking and breakfast",
+                 "an Asian restaurant, a poolside eatery","a cake shop and a club lounge with a bar.",
+                 "a fitness centre and an outdoor pool", "conference space is offered"], "waitingList":[]}])
+
+
+
+
+
+
+Hyderabad
+
+db.hotels.insert([
+                 {"name":"Mercure Hyderabad KCP", "city":"Hyderabad", "state":"Telangana", "noRooms":[55,35], "costArr":[4999,7999], 
+                "ratingArr":[4], "details":["all-day restaurant","rooftop eatery and a cafe","a gym","a business centre","Free wifi",
+                "fitness centre", "spa, bar", "Air conditioning"], "waitingList":[]},
+                
+                {"name":"Ellala Gachibowli Hyderabad", "city":"Hyderabad", "state":"Telangana", "noRooms":[43,28], "costArr":[4299,5399], 
+                "ratingArr":[4], "details":["Flat-screen TVs/DVD players","tea/coffee making equipment","tea/coffee making equipment",
+                "Butler service and 24/7 room services","Free wifi","Restaurant", "international, Italian and kebab restaurants", "hot tub"], "waitingList":[]},
+
+                {"name":"The Park", "city":"Hyderabad", "state":"Telangana", "noRooms":[51,34], "costArr":[5999,7299], "ratingArr":[],
+                 "details":["Featuring city, lake or pool views","complimentary Wi-Fi and fresh fruit","flat-screen TVs, desks, sitting areas","tea and coffee making facilities","24/7 alfresco eatery, poolside snacks", "fine dining and a night club","An outdoor infinity pool ", 
+                 "a spa and gym", "Restaurant"], "waitingList":[]},
+
+                 {"name":"IBIS Hyderabad Hitec City", "city":"Hyderabad", "state":"Telangana", "noRooms":[41,24], "costArr":[6599,8399], 
+                "ratingArr":[], "details":["wood furnishings ","complimentary Wi-Fi","flat-screen TVs and minibars",
+                "tea and coffee making facilities","Breakfast is extra","laundry service, business centre, bar onsite"], "waitingList":[]},
+
+                {"name":"Royalton Hotel", "city":"Hyderabad", "state":"Telangana", "noRooms":[41,24], "costArr":[3599,6399], 
+                "ratingArr":[], "details":["free Wi-Fi ","flat-screen TVs and fridges","tea and coffee making facilities",
+                "sitting areas","restaurant, a bar, a spa","Fitness centre"], "waitingList":[]}])
+
+
+
+db.hotels.insert({"name":"Ellala Gachibowli Hyderabad", "city":"Hyderabad", "state":"Telangana", "noRooms":[43,28], "costArr":[4299,5399], 
+                "ratingArr":[], "details":["Flat-screen TVs/DVD players","tea/coffee making equipment","tea/coffee making equipment",
+                "Butler service and 24/7 room services","Free wifi","Restaurant", "international, Italian and kebab restaurants", "hot tub"], "waitingList":[]})
+
+
+db.hotels.insert({"name":"The Park", "city":"Hyderabad", "state":"Telangana", "noRooms":[51,34], "costArr":[5999,7299], "ratingArr":[],
+                 "details":["Featuring city, lake or pool views","complimentary Wi-Fi and fresh fruit","flat-screen TVs, desks, sitting areas","tea and coffee making facilities","24/7 alfresco eatery, poolside snacks, fine dining and a night club","An outdoor infinity pool ", 
+                 "a spa and gym", "Restaurant"], "waitingList":[]})
+
+
+db.hotels.insert({"name":"IBIS Hyderabad Hitec City", "city":"Hyderabad", "state":"Telangana", "noRooms":[41,24], "costArr":[6599,8399], 
+                "ratingArr":[], "details":["wood furnishings ","complimentary Wi-Fi","flat-screen TVs and minibars",
+                "tea and coffee making facilities","Breakfast is extra","laundry service, business centre, bar onsite"], "waitingList":[]})
+
+db.hotels.insert({"name":"Royalton Hotel", "city":"Hyderabad", "state":"Telangana", "noRooms":[41,24], "costArr":[3599,6399], 
+                "ratingArr":[], "details":["free Wi-Fi ","flat-screen TVs and fridges","tea and coffee making facilities",
+                "sitting areas","restaurant, a bar, a spa","Fitness centre"], "waitingList":[]})
+
+
+Mumbai
+
+db.hotels.insert([
+                {"name":"T2 BEACON MUMBAI", "city":"Mumbai", "state":"Maharashtra", "noRooms":[44,27], "costArr":[6199,8299], 
+                "ratingArr":[], "details":["free Wi-Fi and flat-screen TVs","minibars", "tea and coffeemaking equipment","Room service is available",
+                "Breakfast and limited parking are complimentary","a relaxed restaurant and a gym"], "waitingList":[]},
+                
+                {"name":"TRANSIT HOTEL", "city":"Mumbai", "state":"Maharashtra", "noRooms":[48,35], "costArr":[5199,9299], 
+                "ratingArr":[], "details":["free Wi-Fi and flat-screen TVs","minibars" ,"tea and coffeemaking equipment","Room service is available",
+                "Breakfast and limited parking are complimentary","meeting and event facilities"], "waitingList":[]},
+                
+                {"name":"DRAGON FLY", "city":"Mumbai", "state":"Maharashtra", "noRooms":[44,31], "costArr":[4069,8079], 
+                "ratingArr":[], "details":["rich wooden furnishings","flat-screen TVs", "free Wi-Fi, mini fridges","tea and coffee making facilities",
+                "Room service is available 24/7","international cuisine", "a garden terrace", "room service, laundry service", "business centre"], "waitingList":[]},
+                
+                {"name":"KOHINOOR CONTINENTAL", "city":"Mumbai", "state":"Maharashtra", "noRooms":[57,30], "costArr":[4969,8569], 
+                "ratingArr":[], "details":["refined, modern rooms offer cool colour scheme", "free Wi-Fi and flat-screen TVs","minibars","Room service is available",
+                "separate bedrooms and lavish bathrooms","business centre and conference facilities", "Swimming pool — Outdoor"], "waitingList":[]},
+                
+                {"name":"KEYS SELECT HOTEL NESTOR", "city":"Mumbai", "state":"Maharashtra", "noRooms":[41,24], "costArr":[3199,6199], 
+                "ratingArr":[], "details":["Low-key rooms and suites, with contemporary decor","free Wi-Fi", "flat-screen TVs", "tea and coffee making facilities","Room service is available",
+                "Parking is complimentary","an outdoor pool", "a kid’s play area", "banquet facilities and laundry service."], "waitingList":[]}])
+
+
+db.hotels.insert({"name":"TRANSIT HOTEL", "city":"Mumbai", "state":"Maharashtra", "noRooms":[48,35], "costArr":[5199,9299], 
+                "ratingArr":[], "details":["free Wi-Fi and flat-screen TVs","minibars, and tea and coffeemaking equipment","Room service is available",
+                "Breakfast and limited parking are complimentary","meeting and event facilities"], "waitingList":[]})
+
+
+db.hotels.insert({"name":"DRAGON FLY", "city":"Mumbai", "state":"Maharashtra", "noRooms":[44,31], "costArr":[4069,8079], 
+                "ratingArr":[], "details":["rich wooden furnishings","flat-screen TVs, free Wi-Fi, mini fridges","tea and coffee making facilities",
+                "Room service is available 24/7","international cuisine, as well as a garden terrace", "room service, laundry service", "business centre"], "waitingList":[]})
+
+db.hotels.insert({"name":"KOHINOOR CONTINENTAL", "city":"Mumbai", "state":"Maharashtra", "noRooms":[57,30], "costArr":[4969,8569], 
+                "ratingArr":[], "details":["refined, modern rooms offer cool colour scheme", "free Wi-Fi and flat-screen TVs","minibars","Room service is available",
+                "suites offer separate bedrooms and lavish bathrooms","business centre and conference facilities", "Swimming pool — Outdoor"], "waitingList":[]})
+
+db.hotels.insert({"name":"KEYS SELECT HOTEL NESTOR", "city":"Mumbai", "state":"Maharashtra", "noRooms":[41,24], "costArr":[3199,6199], 
+                "ratingArr":[], "details":["Low-key rooms and suites, with contemporary decor","free Wi-Fi, flat-screen TVs and tea and coffee making facilities","Room service is available",
+                "Parking is complimentary","an outdoor pool, a kid’s play area, banquet facilities and laundry service."], "waitingList":[]})
+
+New Delhi
+
+
+db.hotels.insert([
+                {"name":"GINGER DELHI RYN", "city":"New Delhi", "state":"Delhi", "noRooms":[51,32], "costArr":[5899,7299], 
+                "ratingArr":[], "details":["rooms with streamlined decor ","with flat-screen TVs", "free Wi-Fi","tea and coffee making equipment","Room service is available",
+                "Parking is complimentary","a casual restaurant and a fitness room"], "waitingList":[]},
+                
+                {"name":"ORANA HOTELS AND RESORTS", "city":"New Delhi", "state":"Delhi", "noRooms":[47,35], "costArr":[5199,7299], 
+                "ratingArr":[], "details":["rooms with streamlined decor ","with flat-screen TVs, free Wi-Fi","desks and rainfall showers","separate living rooms", "free airport transfers",
+                "Room service is available 24/7.","Welcome drinks are complimentary","an outdoor pool and a fitness room", "free parking"], "waitingList":[]},
+                
+                {"name":"HOTEL LE ROI DELHI", "city":"New Delhi", "state":"Delhi", "noRooms":[55,35], "costArr":[5999,7999], 
+                "ratingArr":[], "details":["soundproof windows","offer free Wi-Fi", " flat-screen TVs","desks and laptop safes", "tea and coffee making equipment","Room service is available",
+                "Parking is free","24/7 cafe", "a rooftop terrace where breakfast is served"], "waitingList":[]},
+                
+                {"name":"CASPIA HOTEL", "city":"New Delhi", "state":"Delhi", "noRooms":[45,37], "costArr":[5666,7669], 
+                "ratingArr":[], "details":["with flat-screen TVs", "free Wi-Fi","desks, and tea and coffee making equipment","Room service is available",
+                "a multi-cuisine restaurant", "a cafe/bar and a fitness room","Airport shuttle", "free parking"], "waitingList":[]},
+
+                {"name":"HOTEL SOUTHERN", "city":"New Delhi", "state":"Delhi", "noRooms":[53,41], "costArr":[5789,7888], 
+                "ratingArr":[], "details":["free Wi-Fi","bottled water and welcome fruit baskets","satellite TV and desks", "minifridges", "tea and coffee making equipment","Room service is available",
+                "free a breakfast buffet", "parking and airport/area shuttles","a generator is available", "free parking"], "waitingList":[]}])
+
+
+
+db.hotels.insert({"name":"ORANA HOTELS AND RESORTS", "city":"New Delhi", "state":"Delhi", "noRooms":[47,35], "costArr":[5199,7299], 
+                "ratingArr":[], "details":["rooms with streamlined decor ","with flat-screen TVs, free Wi-Fi","desks and rainfall showers","separate living rooms and free airport transfers",
+                "Room service is available 24/7.","Welcome drinks are complimentary","an outdoor pool and a fitness room", "free parking"], "waitingList":[]})
+
+
+db.hotels.insert({"name":"HOTEL LE ROI DELHI", "city":"New Delhi", "state":"Delhi", "noRooms":[55,35], "costArr":[5999,7999], 
+                "ratingArr":[], "details":["soundproof windows","offer free Wi-Fi, with flat-screen TVs","desks and laptop safes", "tea and coffee making equipment","Room service is available",
+                "Parking is free","24/7 cafe and a rooftop terrace where breakfast is served"], "waitingList":[]})
+
+
+db.hotels.insert({"name":"CASPIA HOTEL", "city":"New Delhi", "state":"Delhi", "noRooms":[45,37], "costArr":[5666,7669], 
+                "ratingArr":[], "details":["with flat-screen TVs, free Wi-Fi","desks, and tea and coffee making equipment","Room service is available",
+                "a multi-cuisine restaurant, a cafe/bar and a fitness room","Airport shuttle", "free parking"], "waitingList":[]})
+
+
+db.hotels.insert({"name":"HOTEL SOUTHERN", "city":"New Delhi", "state":"Delhi", "noRooms":[53,41], "costArr":[5789,7888], 
+                "ratingArr":[], "details":["free Wi-Fi","bottled water and welcome fruit baskets","satellite TV and desks", "minifridges and tea and coffee making equipment","Room service is available",
+                "free a breakfast buffet, parking and airport/area shuttles","a generator is available", "free parking"], "waitingList":[]})
+
+
+
+Kolkata
+
+db.hotels.insert([
+                {"name":"HOTEL HINDUSTHAN INTERNATIONAL", "city":"Kolkata", "state":"West Bengal", "noRooms":[50,36], "costArr":[4379,6888], 
+                "ratingArr":[], "details":["free Wi-Fi","flat-screen TVs, along with minibars", "minifridges", "tea and coffee making equipment","Room service is available",
+                "a 24-hour cafe", "2 hip lounge/bars", "an upscale restaurant","an airport shuttle", "24/7 butler service", "an outdoor pool", "a fitness room and a spa"], "waitingList":[]},
+                
+                {"name":"THE PEERLESS INN KOLKATA", "city":"Kolkata", "state":"West Bengal", "noRooms":[40,36], "costArr":[5279,7218], 
+                "ratingArr":[], "details":["free Wi-Fi","flat-screen TVs", "along with minibars", "tea and coffee making equipment","fridges and desks", "plus fruit baskets and chocolates",
+                "Evening turndown service is on offer","multi-cuisine restaurant with a coffee shop", "A fitness room "], "waitingList":[]},
+
+                {"name":"Aauris", "city":"Kolkata", "state":"West Bengal", "noRooms":[44,36], "costArr":[4279,6318], 
+                "ratingArr":[], "details":["free Wi-Fi", "flat-screen TVs", "along with minibars and minifridges", "tea and coffee making equipment","Room service is available",
+                "A hip restaurant serves international dishes","an open-air cafe","a chic rooftop bar with LED-lit furniture", "a gym", "an outdoor pool", "a spa with steam rooms"], "waitingList":[]},
+
+                {"name":"PARK PRIME KOLKATA", "city":"Kolkata", "state":"West Bengal", "noRooms":[40,36], "costArr":[5399,7318], 
+                "ratingArr":[], "details":["breakfast and on-site parking","flat-screen TVs", "along with minibars and free Wi-Fi", "minifridges", "tea and coffee making equipment","Room service is available",
+                "a rooftop pool, a gym & a spa","Pets are welcome", "an upscale restaurant", "a bistro and a relaxed bar"], "waitingList":[]},
+                
+                {"name":"THE LINDSAY", "city":"Kolkata", "state":"West Bengal", "noRooms":[51,36], "costArr":[5289,7888], 
+                "ratingArr":[], "details":["free Wi-Fi","flat-screen TVs, along with minibars", "minifridges and tea and coffee making equipment","Room service is available",
+                "separate sitting/dining areas","a rooftop restaurant serving international cuisine", "features city views", "a gym, a hair salon and a yogurt shop"], "waitingList":[]}])
+
+
+
+
+db.hotels.insert({"name":"THE PEERLESS INN KOLKATA", "city":"Kolkata", "state":"West Bengal", "noRooms":[40,36], "costArr":[5279,7218], 
+                "ratingArr":[], "details":["free Wi-Fi","flat-screen TVs, along with minibars", "tea and coffee making equipment","fridges and desks, plus fruit baskets and chocolates",
+                "Evening turndown service is on offer","multi-cuisine restaurant with a coffee shop", "A fitness room "], "waitingList":[]})
+
+db.hotels.insert({"name":"Aauris", "city":"Kolkata", "state":"West Bengal", "noRooms":[44,36], "costArr":[4279,6318], 
+                "ratingArr":[], "details":["free Wi-Fi","flat-screen TVs, along with minibars", "minifridges and tea and coffee making equipment","Room service is available",
+                "A hip restaurant serves international dishes","an open-air cafe","a chic rooftop bar that has LED-lit furniture", "a gym, an outdoor pool, and a spa with steam rooms"], "waitingList":[]})
+
+db.hotels.insert({"name":"PARK PRIME KOLKATA", "city":"Kolkata", "state":"West Bengal", "noRooms":[40,36], "costArr":[5399,7318], 
+                "ratingArr":[], "details":["breakfast and on-site parking","flat-screen TVs, along with minibars and free Wi-Fi", "minifridges and tea and coffee making equipment","Room service is available",
+                "a rooftop pool, a gym & a spa","Pets are welcome", "an upscale restaurant, a bistro and a relaxed bar"], "waitingList":[]})
+
+db.hotels.insert({"name":"THE LINDSAY", "city":"Kolkata", "state":"West Bengal", "noRooms":[51,36], "costArr":[5289,7888], 
+                "ratingArr":[], "details":["free Wi-Fi","flat-screen TVs, along with minibars", "minifridges and tea and coffee making equipment","Room service is available",
+                "separate sitting/dining areas","a rooftop restaurant/bar serving international cuisine and featuring city views", "a gym, a hair salon and a yogurt shop"], "waitingList":[]})
+
+Bangalore
+
+db.hotels.insert([
+                {"name":"GOLDFINCH HOTELS", "city":"Bangalore", "state":"Karnataka", "noRooms":[48,39], "costArr":[5002,7654], 
+                "ratingArr":[], "details":["a free breakfast buffet", "a kebab restaurant, a warm seafood restaurant","free Wi-Fi",
+                 "flat-screen TVs", "minibars and coffee making facilities","a spa area with massage treatments", 
+                 "plus a salon","a restaurant for Indian, Chinese and Mediterranean cuisine","Banquet halls are available",
+                 "Air conditioning"], "waitingList":[]},
+                 
+                 {"name":"CHANCERY PAVILION", "city":"Bangalore", "state":"Karnataka", "noRooms":[42,28], "costArr":[5882,7244], 
+                "ratingArr":[], "details":["free Wi-Fi", "flat-screen TVs", "plus minibars", "tea and coffee making facilities.",
+                "separate living/dining areas", "some include whirlpool tubs",
+                "Room service is available 24/7",
+                "Parking is free","24/7 gym and an outdoor pool", "plus a sauna and a hot tub",
+                 "business centre and conference space available"], "waitingList":[]},
+                 
+                 {"name":"ADARSH HAMILTON", "city":"Bangalore", "state":"Karnataka", "noRooms":[40,27], "costArr":[5999,7299], 
+                "ratingArr":[], "details":["free Wi-Fi and flat-screen TVs", "plus minibars", "tea and coffee making facilities.",
+                "separate living/dining areas", "some include whirlpool tubs",
+                "Room service is available 24/7",
+                "Parking is free","a polished international restaurant", "an elegant bar and a stylish lobby lounge", "a gym",
+                 "business centre and function rooms available"], "waitingList":[]},
+                 
+                 {"name":"SOUTHERN STAR", "city":"Bangalore", "state":"Karnataka", "noRooms":[42,28], "costArr":[5882,7244], 
+                "ratingArr":[], "details":["Wi-Fi access", "flat-screen TVs", "tea and coffee making facilities","minibars",
+                "Room service is available 24/7","3 restaurants, including Mediterranean fare", "as well as an open-air option",
+                "Breakfast and parking are free","24/7 gym and an outdoor pool", "plus a sauna and a hot tub",
+                 "business centre and conference space available"], "waitingList":[]},
+                 
+                 {"name":"FORTUNE SELECT TRINITY", "city":"Bangalore", "state":"Karnataka", "noRooms":[52,30], "costArr":[5099,7099], 
+                "ratingArr":[], "details":["free Wi-Fi", "minibars and TVs", "as well as tea and coffeemaking equipment","separate living/dining areas", "some include whirlpool tubs",
+                "Room service is available 24/7",
+                "Free perks include parking and breakfast",
+                 "an Asian restaurant, a poolside eatery","a cake shop and a club lounge with a bar.","a fitness centre and an outdoor pool", "conference space is offered"], "waitingList":[]}])
+
+
+db.hotels.insert({"name":"CHANCERY PAVILION", "city":"Bangalore", "state":"Karnataka", "noRooms":[42,28], "costArr":[5882,7244], 
+                "ratingArr":[], "details":["free Wi-Fi and flat-screen TVs, plus minibars, and tea and coffee making facilities.",
+                "separate living/dining areas some include whirlpool tubs",
+                "Room service is available 24/7",
+                "Parking is free","24/7 gym and an outdoor pool, plus a sauna and a hot tub",
+                 "business centre and conference space available"], "waitingList":[]})
+
+db.hotels.insert({"name":"ADARSH HAMILTON", "city":"Bangalore", "state":"Karnataka", "noRooms":[40,27], "costArr":[5999,7299], 
+                "ratingArr":[], "details":["free Wi-Fi and flat-screen TVs, plus minibars, and tea and coffee making facilities.",
+                "separate living/dining areas some include whirlpool tubs",
+                "Room service is available 24/7",
+                "Parking is free","a polished international restaurant, an elegant bar and a stylish lobby lounge, a gym",
+                 "business centre and function rooms are available"], "waitingList":[]})
+
+db.hotels.insert({"name":"SOUTHERN STAR", "city":"Bangalore", "state":"Karnataka", "noRooms":[42,28], "costArr":[5882,7244], 
+                "ratingArr":[], "details":["Wi-Fi access, flat-screen TVs and tea and coffee making facilities","minibars, and some have safes and sitting areas",
+                "Room service is available 24/7","3 restaurants, including 1 that serves Mediterranean fare, as well as an open-air option",
+                "Breakfast and parking are free","24/7 gym and an outdoor pool, plus a sauna and a hot tub",
+                 "business centre and conference space available"], "waitingList":[]})
+
+db.hotels.insert({"name":"FORTUNE SELECT TRINITY", "city":"Bangalore", "state":"Karnataka", "noRooms":[52,30], "costArr":[5099,7099], 
+                "ratingArr":[], "details":["free Wi-Fi, minibars and TVs, as well as tea and coffeemaking equipment","separate living/dining areas some include whirlpool tubs",
+                "Room service is available 24/7",
+                "Free perks include parking and breakfast",
+                 "an Asian restaurant, a poolside eatery","a cake shop and a club lounge with a bar.","a fitness centre and an outdoor pool, and conference space is offered"], "waitingList":[]})
+
